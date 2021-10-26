@@ -1,0 +1,152 @@
+{
+  "project":
+  {
+    "id": 1,
+    "name": "Jira Clone 1.0",
+    "url": "http://www.abc.com/software/jira",
+    "description": "Plan, track, and manage your agile and software development projects in Jira. Customize your workflow, collaborate, and release great software.",
+    "category": "software",
+    "createdAt": "2021-10-26T16:06:20.397Z",
+    "updatedAt": "2021-10-26T16:06:20.397Z",
+    "users":
+    [
+      {
+        "id": 1,
+        "name": "Harry",
+        "email": "harry@harry.guest",
+        "avatarUrl": "images/picke-rick.jpg",
+        "createdAt": "2021-10-26T16:06:20.378Z",
+        "updatedAt": "2021-10-26T16:06:20.397Z",
+        "projectId": 1
+      },
+      {
+        "id": 2,
+        "name": "Ron",
+        "email": "ron@ron.guest",
+        "avatarUrl": "images/baby-yoda.jpg",
+        "createdAt": "2021-10-26T16:06:20.388Z",
+        "updatedAt": "2021-10-26T16:06:20.397Z",
+        "projectId": 1
+      },
+      {
+        "id": 3,
+        "name": "Hermoine",
+        "email": "hermoine@abc.guest",
+        "avatarUrl": "images/baby-yoda.jpg",
+        "createdAt": "2021-10-26T16:06:20.388Z",
+        "updatedAt": "2021-10-26T16:06:20.397Z",
+        "projectId": 1
+      }
+    ],
+    "issues":
+    [
+      {
+        "id": 1,
+        "title": "This is an issue of type: Task.",
+        "type": "task",
+        "status": "backlog",
+        "priority": "4",
+        "listPosition": 1,
+        "createdAt": "2021-10-26T16:06:20.411Z",
+        "updatedAt": "2021-10-26T16:06:20.411Z",
+        "userIds":
+        [
+          1
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Click on an issue to see what's behind it.",
+        "type": "task",
+        "status": "backlog",
+        "priority": "2",
+        "listPosition": 2,
+        "createdAt": "2021-10-26T16:06:20.411Z",
+        "updatedAt": "2021-10-26T16:06:20.411Z",
+        "userIds":
+        [
+          1
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Try dragging issues to different columns to transition their status.",
+        "type": "story",
+        "status": "backlog",
+        "priority": "3",
+        "listPosition": 3,
+        "createdAt": "2021-10-26T16:06:20.411Z",
+        "updatedAt": "2021-10-26T16:06:20.411Z",
+        "userIds":
+        []
+      },
+      {
+        "id": 4,
+        "title": "Each issue can be assigned priority from lowest to highest.",
+        "type": "task",
+        "status": "selected",
+        "priority": "5",
+        "listPosition": 5,
+        "createdAt": "2021-10-26T16:06:20.422Z",
+        "updatedAt": "2021-10-26T16:06:20.422Z",
+        "userIds":
+        []
+      },
+      {
+        "id": 5,
+        "title": "You can use rich text with images in issue descriptions.",
+        "type": "story",
+        "status": "backlog",
+        "priority": "1",
+        "listPosition": 4,
+        "createdAt": "2021-10-26T16:06:20.422Z",
+        "updatedAt": "2021-10-26T16:06:20.422Z",
+        "userIds":
+        [
+          3
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Each issue has a single reporter but can have multiple assignees.",
+        "type": "story",
+        "status": "selected",
+        "priority": "4",
+        "listPosition": 6,
+        "createdAt": "2021-10-26T16:06:20.426Z",
+        "updatedAt": "2021-10-26T16:06:20.426Z",
+        "userIds":
+        [
+          2,
+          3
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Try leaving a comment on this issue.",
+        "type": "task",
+        "status": "done",
+        "priority": "3",
+        "listPosition": 7,
+        "createdAt": "2021-10-26T16:06:20.426Z",
+        "updatedAt": "2021-10-26T16:06:20.426Z",
+        "userIds":
+        [
+          2
+        ]
+      },
+      {
+        "id": 8,
+        "title": "You can track how many hours were spent working on an issue, and how many hours remain.",
+        "type": "task",
+        "status": "inprogress",
+        "priority": "1",
+        "listPosition": 7,
+        "createdAt": "2021-10-26T16:06:20.425Z",
+        "updatedAt": "2021-10-26T16:06:20.425Z",
+        "userIds":
+        []
+      }
+    ]
+  }
+}
